@@ -1,0 +1,19 @@
+.Services-content{
+    background-image: url(./../../../../assets/main/Services/Background.png);
+    padding: 88px 0 98px 0;
+}
+
+.Services-content h2 , .Services-content strong {
+    color: var(--white-color-text);
+    border: 4px solid var(--orange-color-solis);
+}
+
+.Services-titleBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Services-rightBlock{
+    margin-top: 78px;
+}

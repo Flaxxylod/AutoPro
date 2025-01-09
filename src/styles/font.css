@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Geometria";
+    src: local("Geometria"), url(./Fonts/geometria_bold.otf) format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Geometria";
+    src: local("Geometria"), url(./Fonts/geometria_medium.otf) format('truetype');
+    font-weight: 500;
+}
+

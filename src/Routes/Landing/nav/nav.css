@@ -1,0 +1,25 @@
+.Nav-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    background-color: rgba(14, 14, 14, 0.15);
+
+
+}
+
+
+.nav-elements {
+    display: flex;
+    align-items: center;
+    column-gap: 31px;
+}
+
+.notifications {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C53720;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}

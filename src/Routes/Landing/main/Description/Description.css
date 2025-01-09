@@ -1,0 +1,15 @@
+.DescriptionBycompany-content {
+    background-image: url(../../../../assets/main/Description/Background.png);
+    padding-bottom: 88px;
+}
+
+.DescriptionBycompany-titleBlock {
+    margin-bottom: 36px;
+}
+
+.DescriptionBycompany-block-cards {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, 400px);
+    grid-gap: 24px;
+}

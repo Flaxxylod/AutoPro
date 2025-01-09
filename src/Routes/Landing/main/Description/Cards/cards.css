@@ -1,0 +1,27 @@
+.Card-content {
+    transition: 0.5s;
+    max-width: 360px;
+    width: 400px;
+    padding: 186px 70px 68px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Card-content:hover {
+    transition: 1s;
+}
+
+.Card-content-elements {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    display: none;
+    row-gap: 66px;
+}
+
+
+.Card-content:hover .Card-content-elements {
+    display: flex;
+
+}

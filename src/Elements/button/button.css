@@ -1,0 +1,24 @@
+.button-transparent-small{
+    transition: 0.3s;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 12px 20px;
+    background-color: transparent;
+    border: 4px solid var(--orange-color-solid);
+    text-transform: uppercase;
+}
+
+.button-transparent-small:hover, .button-transparent-high:hover{
+    transition: 0.3s;
+    background-color: var(--orange-color-solid);
+}
+
+.button-transparent-high{
+    transition: 0.3s;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 18px 20px;
+    background-color: transparent;
+    border: 4px solid var(--orange-color-solid);
+    text-transform: uppercase;
+}

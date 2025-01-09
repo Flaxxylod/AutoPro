@@ -1,0 +1,67 @@
+@import './font.css';
+/* основные стили */
+
+:root{
+    --white-color-text: #FFFFFF;
+    --black-color-text: #1D1D1D;
+    --black-color-button: #0E0E0E;
+    --orange-color-solid: #D42E12;
+}
+*{
+    color: var(--white-color-text);
+    font-family: "Geometria";
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.wrap{
+    max-width: 1640px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1160px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* основные стили */
+
+/* Стили тегов */
+
+h1{
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--black-color-text);
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:var(--black-color-text)
+}
+
+strong{
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--black-color-text);
+}
+
+a:hover{
+    transition: 0.3s;
+    color: var(--orange-color-solid);
+}
+
+
+hr{
+    border: solid 4px var(--orange-color-solid);
+    margin: auto;
+    width: 856px;
+}
