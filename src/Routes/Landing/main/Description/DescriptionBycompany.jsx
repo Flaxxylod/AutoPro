@@ -11,10 +11,14 @@ const DescriptionBycompany = () => {
         <div className="DescriptionBycompany-content">
             <div className="container">
                 <div style={{ textAlign: "center" }} className="DescriptionBycompany-titleBlock">
-                    <span ><h2>Автотовары: аксессуары,<br />
-                        расходники и многое другое</h2></span>
-                    <hr style={{ marginTop: "26px", marginBottom: "32px" }} />
-                    <strong >PROAuto - это специализированный интернет магазин востребованных <br /> товаров  для автомобилей. </strong>
+                    <span><h2 style={{ paddingBottom: "32px" }}>Автотовары: аксессуары,<br />
+                        расходники и многое другое</h2>
+                    </span>
+
+                    <span>
+
+                        <strong >PROAuto - это специализированный интернет магазин востребованных <br /> товаров  для автомобилей. </strong>
+                    </span>
                 </div>
                 <div className="DescriptionBycompany-block-cards">
                     {Card}

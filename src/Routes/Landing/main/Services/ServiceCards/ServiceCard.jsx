@@ -1,8 +1,9 @@
 import "./serviceCard.css"
-import FreeCounsult from "./../../../../../assets/main/Services/Cards/Freeconsultation.svg"
-const SeviceCard = ({picture, head, text}) => {
+
+const SeviceCard = ({picture, head, text, OnMouseEnter,  OnMouseLeave}) => {
+    
     return (
-        <div className="ServiceCard-content">
+        <div onMouseEnter={OnMouseEnter}  onMouseLeave={OnMouseLeave} className="ServiceCard-content">
             <div className="Card-content-mainBlock">
                 <section className="Card-leftBlock"><img src={picture} alt="" /></section>
                 <section className="Card-rightBlock">

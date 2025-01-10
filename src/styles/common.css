@@ -39,6 +39,8 @@ h2{
     font-weight: 700;
     color: var(--black-color-text);
     text-transform: uppercase;
+    border-bottom: solid var(--orange-color-solid) 4px;
+    padding-bottom: 8px;
 }
 
 h3{

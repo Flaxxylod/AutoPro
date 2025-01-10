@@ -1,19 +1,33 @@
-.Services-content{
+.Services-content {
     background-image: url(./../../../../assets/main/Services/Background.png);
     padding: 88px 0 98px 0;
 }
 
-.Services-content h2 , .Services-content strong {
+.Services-content h2, .Services-content strong {
     color: var(--white-color-text);
-    border: 4px solid var(--orange-color-solis);
+    
 }
 
-.Services-titleBlock{
+.Services-titleBlock {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.Services-rightBlock{
+.Services-mainBlock {
+    column-gap: 78px;
+    display: flex;
+ 
     margin-top: 78px;
+}
+
+.rightBlock-hero{
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.rightBlock-hero-hovered{
+    transition: 0.3s;
+    opacity: 1;
+
 }

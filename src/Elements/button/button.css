@@ -8,7 +8,7 @@
     text-transform: uppercase;
 }
 
-.button-transparent-small:hover, .button-transparent-high:hover{
+.button-transparent-small:hover, .button-transparent-high:hover,.button-transparent-higher:hover{
     transition: 0.3s;
     background-color: var(--orange-color-solid);
 }
@@ -18,6 +18,16 @@
     font-size: 12px;
     font-weight: 700;
     padding: 18px 20px;
+    background-color: transparent;
+    border: 4px solid var(--orange-color-solid);
+    text-transform: uppercase;
+}
+
+.button-transparent-higher{
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px 50px;
     background-color: transparent;
     border: 4px solid var(--orange-color-solid);
     text-transform: uppercase;
