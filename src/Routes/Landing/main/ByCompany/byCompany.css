@@ -1,3 +1,44 @@
-.Bycompany-content{
-    background-image: url(./../../../../assets/main/ByCompany/Bycompany-Background.png);
+.Bycompany-content {
+    padding: 88px 0 98px;
+    background: linear-gradient(rgba(14, 14, 14, 0.6), rgba(14, 14, 14, 0.6)), url(./../../../../assets/main/ByCompany/Bycompany-Background.png);
+    position: relative;
+    z-index: 2;
+}
+
+.Bycompany-headBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.Bycompany-mainBlock{
+    column-gap: 25px;
+    margin-top: 86px;
+    display: flex;
+}
+
+.Bycompany-mainBlock-Picture section{
+    position: relative;
+    width: 364px;
+    height: 347px;
+    clip-path: polygon(27.49% 3.79%, 99.4% 3.79%, 99.4% 72.72%, 74.98% 98.02%, 3.9% 98.02%, 3.9% 69.26%, 3.48% 28.9%);
+}
+
+.Bycompany-mainBlock-Picture{
+    width: 368px;
+    height: 351px;
+    background-color: var(--orange-color-solid);
+    clip-path: polygon(25.75% 1.73%, 100% 1.73%, 100% 74.83%, 76.25% 100%, 1.54% 99.99%, 1.54% 69.66%, 0.54% 27.31%);
+}
+
+.Bycompany-mainBlock-info{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 28px;
+    height: 255px;
+    max-width: 764px;
+    background-color: rgba(14, 14, 14, 0.6);
+    padding: 32px 32px 43px;
+    text-align: left;
+    border: 4px solid var(--orange-color-solid);
 }

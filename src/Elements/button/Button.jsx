@@ -1,10 +1,10 @@
 import "./button.css"
 
-const Button = ({children, color, size}) => {
+const Button = ({children, color, size, Style}) => {
     color == null?  color = "transparent" : color
     size == null? size = "small" : size
     return (
-        <button className={"button-"+color+"-"+ size}>{children}</button>
+        <button style={Style} className={"button-"+color+"-"+ size}>{children}</button>
         
     );
 }

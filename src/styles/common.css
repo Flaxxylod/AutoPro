@@ -1,6 +1,10 @@
 @import './font.css';
 /* основные стили */
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root{
     --white-color-text: #FFFFFF;
     --black-color-text: #1D1D1D;
@@ -14,7 +18,15 @@
     font-size: 16px;
 }
 
+.AnchorBlock{
+    position: relative;
+    max-width: 1640px;
+    margin: 0 auto;
+}
+
 .wrap{
+    position: relative;
+    z-index: 2;
     max-width: 1640px;
     margin: 0 auto;
 }
@@ -67,3 +79,4 @@ hr{
     margin: auto;
     width: 856px;
 }
+

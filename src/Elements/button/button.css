@@ -8,12 +8,14 @@
     text-transform: uppercase;
 }
 
-.button-transparent-small:hover, .button-transparent-high:hover,.button-transparent-higher:hover{
+.button-transparent-small:hover, .button-transparent-high:hover,.button-transparent-higher:hover, .button-orange-higher:hover{
     transition: 0.3s;
     background-color: var(--orange-color-solid);
+    color: var(--white-color-text);
 }
 
 .button-transparent-high{
+    width: 230px;
     transition: 0.3s;
     font-size: 12px;
     font-weight: 700;
@@ -24,6 +26,17 @@
 }
 
 .button-transparent-higher{
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px 50px;
+    background-color: transparent;
+    border: 4px solid var(--orange-color-solid);
+    text-transform: uppercase;
+}
+
+.button-orange-higher{
+    color: var(--orange-color-solid);
     transition: 0.3s;
     font-size: 14px;
     font-weight: 700;

@@ -10,6 +10,7 @@ const Main = () => {
     return (
         <div className="Header-content">
             <Nav />
+
             <div className="container">
                 <div className="Header-block-main">
                     <div className="Header-block-left">
@@ -32,17 +33,17 @@ const Main = () => {
             {/* РЕАЛИЗОВАТЬ ПОТОМ ЧЕРЕЗ MAP */}
             <div style={{ backgroundColor: "var(--black-color-button)" }} className="Header-block-bottom-attributes" >
                 <div className="Header-block-bottom-cards">
-                    <section  className="Header-block-bottom-card-elements-icon">
+                    <section className="Header-block-bottom-card-elements-icon">
                         <img src={Payment} alt="" />
                         <span>Наличный и безналичный расчет</span>
-                        
+
                     </section>
                 </div>
                 <div className="Header-block-bottom-cards">
                     <section className="Header-block-bottom-card-elements-icon">
                         <img src={Support} alt="" />
                         <span>Техническая помощь и консультация</span>
-                        
+
                     </section>
                 </div>
                 <div className="Header-block-bottom-cards">

@@ -1,0 +1,32 @@
+.NewsCard-content {
+    max-width: 360px;
+}
+
+.NewsCard-title {
+    justify-content: space-between;
+    height: 138px;
+    row-gap: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px 16px;
+    background-color: var(--black-color-text);
+    text-align: left;
+}
+
+.NewsCard-title-date {
+    font-weight: 500;
+    font-size: 12px;
+    color: #C53720;
+}
+
+.NewsCard-title-head {
+    max-width: 319px;
+    flex: 0 0 12px; /* Элементы занимают максимум 100px и не могут сжиматься */
+}
+
+
+.NewsCard-ArrowButton {
+    
+    display: flex;
+    justify-content: flex-end;
+}

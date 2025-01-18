@@ -5,7 +5,7 @@ import Search from "./../../../assets/nav/icons/search.svg"
 import Button from "./../../../Elements/button/Button"
 const Nav = () => {
     return (
-        <div className="Nav-content">
+        <div id="nav" className="Nav-content">
             <div className="container">
                 <div className="nav-elements">
                     <section style={{ display: "flex", textAlign: "center", columnGap: "32px" }}>

@@ -1,0 +1,9 @@
+.anchor-content {
+    
+    z-index: 3;
+    
+    position: sticky;
+    bottom: 50%;
+    margin-left: 96%;
+    padding-top: 12px;
+}

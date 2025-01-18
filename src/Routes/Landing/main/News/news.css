@@ -1,0 +1,17 @@
+.news-content {
+    background-color: #EDEDED;
+    padding: 88px 0 98px 0;
+
+}
+
+.news-titleBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.news-mainBlock {
+    margin-top: 86px;
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
